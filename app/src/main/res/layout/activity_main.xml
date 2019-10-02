@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/btn_add"
+        android:onClick="clickAdd"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/btn_update"
+        android:onClick="clicUpdate"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recyckerview_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00f"/>
+
+
+</LinearLayout>
